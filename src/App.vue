@@ -1,10 +1,6 @@
 <template>
-  <div id="nav">
-App
-  </div>
-  <router-view/>
+  <!-- 一级路由 -->
+  <RouterView />
 </template>
 
-<style lang="less">
-
-</style>
+<style lang="less"></style>
