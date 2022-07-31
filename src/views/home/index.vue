@@ -5,7 +5,7 @@
       <!-- 左侧分类 -->
       <HomeCategory />
       <!-- 轮播图 -->
-      <!-- <HomeBanner /> -->
+      <HomeBanner />
     </div>
   </div>
   <!-- 新鲜好物 -->
@@ -22,9 +22,10 @@
 
 <script>
 import HomeCategory from './components/home-category'
+import HomeBanner from './components/home-banner'
 export default {
   name: 'HomePage',
-  components: { HomeCategory }
+  components: { HomeCategory, HomeBanner }
 }
 </script>
 
